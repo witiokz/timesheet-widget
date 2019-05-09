@@ -1,0 +1,7 @@
+<a class="cell" href="#" (click)="selectedDay()">
+    <div [ngClass]="{'weekend': isWeekend}">{{formatName()}}</div>
+    <div [ngClass]="{'today': isToday, 'selected': isSelected}" class="number">{{formatNumber()}}</div>
+    <div *ngIf="formatAmount()">{{formatAmount()}}:00</div>
+    <div *ngIf="!formatAmount()">-</div>
+    <app-approval [item]="event"></app-approval>
+</a>

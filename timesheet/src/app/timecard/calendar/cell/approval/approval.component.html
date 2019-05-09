@@ -1,0 +1,6 @@
+<div class="dot" [ngClass]="{
+  'green': status === approvalState.Approved,
+  'red': status === approvalState.Rejected,
+  'gray': status === approvalState.Other
+}">
+</div>

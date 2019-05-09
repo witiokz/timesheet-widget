@@ -1,0 +1,17 @@
+.header{
+    height: 316px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.calendar-footer{
+    padding: 20px 0;
+}
+
+.calendar-footer .timesheet-link {
+    text-transform: uppercase;
+    color: orange;
+}

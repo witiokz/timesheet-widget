@@ -1,0 +1,42 @@
+[{
+    "date": "2019-05-28",
+    "quantity": 1,
+    "eventType": "Work1",
+    "isExpenseType": true,
+    "isHoursEventType": false,
+    "isAdditionalHoursEventType": false,
+    "isWorkHour": true,
+    "isApproved": true,
+    "isRejected": false,
+    "tasksCount": 3,
+    "firstTaskStart": "2019-04-26T08:00:00",
+    "lastTaskEnd":  "2019-04-26T18:00:00"
+},
+{
+    "date": "2019-05-28",
+    "quantity": 4,
+    "eventType": "Work2",
+    "isExpenseType": false,
+    "isHoursEventType": true,
+    "isAdditionalHoursEventType": false,
+    "isWorkHour": true,
+    "isApproved": true,
+    "isRejected": false,
+    "tasksCount": 3,
+    "firstTaskStart": "2019-04-26T08:00:00",
+    "lastTaskEnd":  "2019-04-26T18:00:00"
+},
+{
+    "date": "2019-05-30",
+    "quantity": 10,
+    "eventType": "Work1",
+    "isExpenseType": true,
+    "isHoursEventType": false,
+    "isAdditionalHoursEventType": false,
+    "isWorkHour": true,
+    "isApproved": true,
+    "isRejected": false,
+    "tasksCount": 3,
+    "firstTaskStart": "2019-04-27T08:00:00",
+    "lastTaskEnd":  "2019-04-27T18:00:00"
+}]

@@ -1,0 +1,11 @@
+<mat-toolbar>  
+    <div fxFlex="85%">
+        <mat-icon class="header-icon" [ngClass]="{'schedule': header.icon === 'schedule'}">
+          {{header.icon}}
+        </mat-icon>
+        <span class="text">{{header.title}}</span>
+    </div>
+    <div *ngIf="header.text" fxFlex="15%">
+        ({{header.text}})
+    </div>
+</mat-toolbar>

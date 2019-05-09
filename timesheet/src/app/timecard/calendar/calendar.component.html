@@ -1,0 +1,26 @@
+<div class="header">
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutAlign="center">
+        <div fxFlex="92%">
+                <strong>{{yearMonth}}</strong>
+        </div>
+        <div fxFlex="8%">
+            <a href="#" (click)="goToday()"><mat-icon>calendar_today</mat-icon></a>
+        </div>
+    </div>
+    <mat-grid-list cols="7" rowHeight="160px">
+        <mat-grid-tile *ngFor="let eventItem of events"
+          [colspan]="1" 
+          [rowspan]="1">
+          <app-cell [event]="eventItem"></app-cell>
+        </mat-grid-tile>
+      </mat-grid-list>
+      <mat-divider></mat-divider>
+      <div class="calendar-footer" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutAlign="center">
+          <div fxFlex="85%">
+                {{headerDate}}
+          </div>
+          <div fxFlex="15%">
+              <a href="#" class="timesheet-link">go to timesheet</a>
+          </div>
+      </div>
+</div>

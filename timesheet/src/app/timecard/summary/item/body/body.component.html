@@ -1,0 +1,12 @@
+<div *ngIf="data">
+    <div class="summary-header" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutAlign="center">
+        <div *ngFor="let headerItem of data.header;" fxFlex="{{headerItem.size}}%">
+            {{headerItem.title}}
+        </div>
+    </div>
+    <div *ngFor="let dataItems of data.data" class="summary-row" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutAlign="center">
+        <div *ngFor="let item of dataItems.items; index as i" fxFlex="{{data.header[i].size}}%">
+            {{item}}
+        </div>
+    </div>
+</div>

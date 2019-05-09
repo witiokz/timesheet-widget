@@ -1,0 +1,17 @@
+.dot {
+    border-radius: 5px;
+    width: 5px;
+    height: 5px;
+    margin: 0 auto;
+}
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.gray {
+    background: gray;
+}

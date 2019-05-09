@@ -1,0 +1,12 @@
+.schedule {
+    transform: rotate(240deg);
+}
+
+.text{
+    margin-left: 10px;
+}
+
+.header-icon {
+    vertical-align: middle;
+    margin-top: -3px;
+}

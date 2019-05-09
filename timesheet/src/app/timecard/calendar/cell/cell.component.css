@@ -1,0 +1,28 @@
+.cell {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.cell div {
+    margin-bottom: 20px;
+}
+
+.cell .number {
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+.cell .selected, .cell .today {
+    border-radius: 10px;
+    border-color: orangered;
+}
+
+.cell .selected {
+    background-color: orange;
+    color: white;
+}
+
+.cell .weekend {
+    color: gray;
+}
